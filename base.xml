@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="https://tei-eaj.github.io/koui/src/vmachine.xsl" type="text/xsl" ?>
+<?xml-model href="https://raw.githubusercontent.com/ldasjp8/tei-example/main/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication</p>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+					<witness xml:id="a">The Prophecy of Merlin</witness>
+					<witness xml:id="b">The Prophecy of Merlin</witness>
+				</listWit>
+            </sourceDesc>
+            
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Text <app><lem wit="a">aiu</lem><rdg wit="b">eo</rdg></app>here<lb/></p>
+        </body>
+    </text>
+</TEI>
